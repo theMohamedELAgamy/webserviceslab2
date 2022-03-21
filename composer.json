@@ -1,0 +1,13 @@
+{   
+
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/database": "*"
+      
+    },
+    "autoload": {
+        "classmap": ["Model/"],
+        "files": ["configuration.php"]
+        
+    }
+}
